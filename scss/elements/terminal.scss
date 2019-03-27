@@ -1,0 +1,18 @@
+.uiterminal-full {
+  position: relative;
+  padding: 0;
+  background-color:  map-get($default-colors, "normal");
+  color: map-get($default-colors, "text");
+  text-align:left;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-style: none;
+
+  border-width: 4px;
+
+  &.no-padding {
+    padding: 0 0 0 0;
+  }
+
+  
+
+}

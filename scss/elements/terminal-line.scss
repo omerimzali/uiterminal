@@ -1,0 +1,43 @@
+.uiterminal-line {
+  position: relative;
+  display: inline-flex;
+  font-size:12px;    
+  padding: 0;
+  background-color:  map-get($default-colors, "normal");
+  color: map-get($default-colors, "text");
+  text-align:left;
+  border-style: none;
+  width:100%;
+ 
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+    &:before {
+        content: "$ "; 
+    }
+    
+  &.is-centered {
+    text-align: center;
+  }
+
+  &.is-right {
+    text-align: right;
+  }
+    
+  &.is-blinked {
+  animation: blinker 1s linear infinite;
+}
+    &.is-empty{
+         &:before {
+        content: ""; 
+    }
+    }
+  
+
+}
+
+  @keyframes blinker {  
+  50% { opacity: 0; }
+    }
+    

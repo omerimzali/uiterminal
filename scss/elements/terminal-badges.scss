@@ -1,0 +1,25 @@
+.uiterminal-badge {
+    display: inline-block;
+    padding: 0.1rem 0.1rem;
+    pointer-events: none;
+    line-height: 1;
+    margin-left:5px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+ 
+  
+    // Empty badges collapse automatically
+    &:empty {
+      display: none;
+    }
+    &.is-dotted{
+        border:1px dashed map-get($default-colors, "text");
+    }
+    &.is-bordered{
+        border:1px solid map-get($default-colors, "text");
+    }
+    &.no-margin{
+        margin:none;
+    }
+  }

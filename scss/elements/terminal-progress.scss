@@ -1,0 +1,66 @@
+
+  
+
+  .uiterminal-progress {
+  
+    color:  map-get($default-colors, "text");
+    text-align: center;
+    white-space: nowrap;
+    width:100%;
+    background-color: map-get($default-colors, "text");
+    margin-top:0.25rem;
+
+    &::-webkit-progress-bar{
+        background-color: map-get($default-colors, "text");
+    }
+    &::-webkit-progress-value {  
+      
+        background: map-get($default-colors, "text");
+       
+      } 
+    &.is-bordered{
+        border:1px solid  map-get($default-colors, "normal");
+    }
+
+    &.progress-white{
+        &::-webkit-progress-value {  
+        background-color:$color-white;
+    }
+    &::-webkit-progress-bar{
+        background-color: $color-black;
+    }
+}
+    
+
+    &.progress-black{
+        &::-webkit-progress-value {  
+        background-color:$color-black;
+    }}
+    &.progress-primary{
+        &::-webkit-progress-value {  
+        background-color:$color-primary;
+    }}
+    &.progress-secondary{
+        &::-webkit-progress-value {  
+        background-color:$color-secondary;
+    }}
+    &.progress-success{
+        &::-webkit-progress-value {  
+        background-color:$color-success;
+    }}
+    &.progress-danger{
+        &::-webkit-progress-value {  
+        background-color:$color-danger;
+    }}
+    &.progress-warning{
+        &::-webkit-progress-value {  
+        background-color:$color-warning;
+    }}
+    &.progress-info{
+        &::-webkit-progress-value {  
+        background-color:$color-info;
+    }}
+
+  }
+
+ 

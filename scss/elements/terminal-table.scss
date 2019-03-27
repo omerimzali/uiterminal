@@ -1,0 +1,35 @@
+.uiterminal-table{
+    margin-top:0.5rem;
+    font-size:12px;    
+    border:1px dashed map-get($default-colors, "text");
+    background-color:  map-get($default-colors, "normal");
+    color: map-get($default-colors, "text");
+   
+  
+    width:100%;
+
+    &.is-centered{
+        text-align: center;
+    }
+    &.big-dot{
+        border-width: 4px;
+    }
+
+
+    td{
+        border:1px dashed map-get($default-colors, "text");
+    }
+    th,
+    td {
+        border:1px dashed map-get($default-colors, "text");
+      vertical-align: top;
+     
+    }
+  
+    thead th {
+        border:1px dashed map-get($default-colors, "text");
+      vertical-align: bottom;
+     
+    }
+  
+}  

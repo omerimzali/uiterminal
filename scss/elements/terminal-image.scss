@@ -1,0 +1,21 @@
+
+.uiterminal-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+
+
+    &.is-ghost{
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+        -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+        filter: blur(1px);
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+    }
+    &.is-blurred{
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+    }
+
+
+}
