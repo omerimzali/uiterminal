@@ -24,7 +24,7 @@ You can get UITerminal with CDN.
         <link href="https://cdn.jsdelivr.net/gh/omerimzali/uiterminal@master/uiterminal.min.css">
 </head>
 ```
-Or You can pull it with github.
+Or You can clone it.
 ```
 git clone https://github.com/omerimzali/uiterminal.git
 ```
