@@ -1,6 +1,6 @@
 .uiterminal-line {
   position: relative;
-  display: inline-flex;
+  display: block;
   font-size:12px;    
   padding: 0;
   background-color:  map-get($default-colors, "normal");

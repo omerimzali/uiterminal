@@ -181,19 +181,19 @@ body {
   background-color: #000000;
 }
 .uiterminal-progress.progress-primary::-webkit-progress-value {
-  background-color: #0093ff;
+  background-color: #007bff;
 }
 .uiterminal-progress.progress-secondary::-webkit-progress-value {
-  background-color: #6c6c5b;
+  background-color: #6c757d;
 }
 .uiterminal-progress.progress-success::-webkit-progress-value {
-  background-color: #00FF41;
+  background-color: #28a745;
 }
 .uiterminal-progress.progress-danger::-webkit-progress-value {
   background-color: #ff0000;
 }
 .uiterminal-progress.progress-warning::-webkit-progress-value {
-  background-color: #ff8900;
+  background-color: #ffc107;
 }
 .uiterminal-progress.progress-info::-webkit-progress-value {
   background-color: #009bb7;
@@ -221,7 +221,7 @@ body {
 
 .uiterminal-line {
   position: relative;
-  display: inline-flex;
+  display: block;
   font-size: 12px;
   padding: 0;
   background-color: #212222;
@@ -386,67 +386,67 @@ body {
     background-size: 0 1.2em;
   }
 }
-.text-white {
+.uitext-white {
   color: #fff;
 }
 
-.text-black {
+.uitext-black {
   color: #000000;
 }
 
-.text-primary {
-  color: #0093ff;
+.uitext-primary {
+  color: #007bff;
 }
 
-.text-secondary {
-  color: #6c6c5b;
+.uitext-secondary {
+  color: #6c757d;
 }
 
-.text-success {
-  color: #00FF41;
+.uitext-success {
+  color: #28a745;
 }
 
-.text-danger {
+.uitext-danger {
   color: #ff0000;
 }
 
-.text-warning {
-  color: #ff8900;
+.uitext-warning {
+  color: #ffc107;
 }
 
-.text-info {
+.uitext-info {
   color: #009bb7;
 }
 
-.bg-white {
+.uibg-white {
   background-color: #fff;
 }
 
-.bg-black {
+.uibg-black {
   background-color: #000000;
 }
 
-.bg-primary {
-  background-color: #0093ff;
+.uibg-primary {
+  background-color: #007bff;
 }
 
-.bg-secondary {
-  background-color: #6c6c5b;
+.uibg-secondary {
+  background-color: #6c757d;
 }
 
-.bg-success {
-  background-color: #00FF41;
+.uibg-success {
+  background-color: #28a745;
 }
 
-.bg-danger {
+.uibg-danger {
   background-color: #ff0000;
 }
 
-.bg-warning {
-  background-color: #ff8900;
+.uibg-warning {
+  background-color: #ffc107;
 }
 
-.bg-info {
+.uibg-info {
   background-color: #009bb7;
 }
 
@@ -459,15 +459,15 @@ body {
 }
 
 .border-primary {
-  border-color: #0093ff;
+  border-color: #007bff;
 }
 
 .border-secondary {
-  border-color: #6c6c5b;
+  border-color: #6c757d;
 }
 
 .border-success {
-  border-color: #00FF41;
+  border-color: #28a745;
 }
 
 .border-danger {
@@ -475,7 +475,7 @@ body {
 }
 
 .border-warning {
-  border-color: #ff8900;
+  border-color: #ffc107;
 }
 
 .border-info {
